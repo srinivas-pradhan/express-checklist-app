@@ -1,5 +1,8 @@
 const express = require('express')
+const dotenv = require('dotenv')
+
 const app = express()
+const PORT = process.env.PORT
 
 app.get('/',(req,res) => {
     console.log({data: "Hello World"})
@@ -7,6 +10,8 @@ app.get('/',(req,res) => {
 })
 
 
-app.listen(5000, () => {
-    console.log(`App is lisening on Port 5000 ...`)
+app.listen(PORT, () => {
+    console.log(`App is lisening on Port ${PORT} ...`)
+    console.log(PORT)
+
 })
