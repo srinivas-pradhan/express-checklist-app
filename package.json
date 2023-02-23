@@ -1,7 +1,7 @@
 {
   "name": "express-checklist-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "DESCRIPION : TODO",
   "main": "app.js",
   "scripts": {
     "app": "node app.js",
@@ -15,5 +15,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srinivas-pradhan/express-checklist-app.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/srinivas-pradhan/express-checklist-app/issues"
+  },
+  "homepage": "https://github.com/srinivas-pradhan/express-checklist-app#readme"
 }
