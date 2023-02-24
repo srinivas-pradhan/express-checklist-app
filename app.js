@@ -13,5 +13,4 @@ app.get('/',(req,res) => {
 app.listen(PORT, () => {
     console.log(`App is lisening on Port ${PORT} ...`)
     console.log(PORT)
-
 })
