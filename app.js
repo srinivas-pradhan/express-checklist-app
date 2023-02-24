@@ -1,8 +1,9 @@
 const express = require('express')
-const dotenv = require('dotenv')
+const config = require('./config/config')
+//const testing = require('./conrollers/cognito')
 
 const app = express()
-const PORT = process.env.PORT
+const PORT = config.PORT
 
 app.get('/',(req,res) => {
     console.log({data: "Hello World"})
