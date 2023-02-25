@@ -1,5 +1,5 @@
 const { CognitoJwtVerifier } = require('aws-jwt-verify')
-const config = require('./../config/config')
+const config = require('../config/config')
 var { CognitoIDP } = require('@aws-sdk/client-cognito-identity-provider');
 //var cognitoidentityserviceprovider = new CognitoIDP.CognitoIdentityServiceProvider();
 
