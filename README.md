@@ -1,4 +1,4 @@
-# CheckList App
+# CheckList App - WIP
 DESCRIPION : TODO
 
 ### Application Environment Setup
